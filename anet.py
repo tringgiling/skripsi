@@ -1,4 +1,5 @@
 import re
+import time
 import subprocess
 import pandas as pd 		
 
@@ -26,17 +27,27 @@ print (MAC_AP_Dilindungi)
 ### Mulai Fokus memantau AP, dan mencari evil twin
 print("\nSedang mencoba memantau Wifi : " + AP_Dilindungi)
 pantau_fokus = subprocess.call(["sudo","./pantau.sh",AP_Dilindungi])		#Masuk sihh, cuman ngga bisa pake format, harus cari cara lain
-file_csv_fokus = pd.read_csv("hasil_pantauan-01.csv", usecols=["BSSID"," ESSID"]) # Nampilin kolom yang diinginkan aja
-file_csv_fokus.dropna(inplace = True)																#nge drop Kolom kosong (Dalam hal ini, nyaring kolom ESSID, jadi dari station Mac kebawah datanya bakal di drop, jadi cuma AP doang yang tampil)
-print(file_csv_fokus)
+				
 
 ######## WHILE - IF ELSE buat scanning evil twinn ############ 
-# if AP_Dilindungi in list_AP_ESSID and MAC_AP_Dilindungi !=:														# Nge cek inputan user, alhamdulillah udah bisa
-	# print("Adaaaa evil twin")
-# else:
-	# print("Tidaakk")
-
-
-
-stop_pantau = subprocess.call("sudo ./stop_pantau.sh", shell=True)		# ngestop airodump, kalau semuanya udah beres
+while True :
+	file_csv_fokus = pd.read_csv("hasil_pantauan-01.csv", usecols=["BSSID"," ESSID"," channel"," Power"])
+	file_csv_fokus.dropna(inplace = True)
+	AP_scan = file_csv_fokus[" ESSID"].values.tolist()
+	MAC_scan = file_csv_fokus["BSSID"].values.tolist()
+	MAC_ET = [x for x in MAC_scan if x not in MAC_AP_Dilindungi]
+	print(file_csv_fokus)
+	
+	if AP_Dilindungi in AP_scan and MAC_ET  :
+		print ("ada Evil Twin")
+		print (MAC_ET)
+		break
+		
+	else:
+		print ("Belum terdeteksi")
+		time.sleep(0.7)
+		bersih_layar = subprocess.call('clear')
+		
+pause1 = input(" Lanjutkan Proses? (enter)")	
+stop_pantau = subprocess.call("sudo ./stop_pantau.sh", shell=True)					# ngestop airodump, kalau semuanya udah beres
 

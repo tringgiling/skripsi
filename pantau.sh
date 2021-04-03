@@ -14,6 +14,6 @@ else 												# Mode fokus, Airodump cuma mantau AP dilindungi aja
 	tmux kill-session -t 0
 	tmux new -d
 	sudo tmux send -Rt 0 airodump-ng SPACE -N SPACE "$1" SPACE -w SPACE hasil_pantauan SPACE --write-interval SPACE 1 SPACE wlp10s0f0mon ENTER #ngejalanin airodump di tmux session 0
-	echo "Yey Masukkk"
-	sleep 3s
+	echo Melakukan Scaning Ke $1 
+	sleep 7s
 fi

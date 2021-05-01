@@ -1,0 +1,14 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+9A:E7:9A:80:6D:97, 2021-04-18 17:11:58, 2021-04-18 17:13:02, 13,  65, OPN, ,   , -73,       49,        0,   0.  0.  0.  0,   5, nenek, 
+36:97:F6:C7:0C:DC, 2021-04-18 17:12:39, 2021-04-18 17:13:03,  9,  65, WPA2, CCMP, PSK, -38,       14,        0,   0.  0.  0.  0,   9, nenek, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+74:97:81:30:CD:17, 2021-04-18 17:12:24, 2021-04-18 17:12:24, -95,        2, (not associated) ,
+16:27:C0:66:8E:20, 2021-04-18 17:12:36, 2021-04-18 17:12:36, -91,        1, (not associated) ,villa L2
+34:97:F6:C7:0C:DC, 2021-04-18 17:12:30, 2021-04-18 17:12:30, -73,        2, (not associated) ,
+56:6A:52:3A:6B:30, 2021-04-18 17:12:01, 2021-04-18 17:13:02, -69,       24, 4E:A7:65:10:ED:02,
+B4:04:18:7F:A3:BA, 2021-04-18 17:12:37, 2021-04-18 17:12:37, -65,        3, 4E:A7:65:10:ED:02,
+36:97:F6:C7:0C:DC, 2021-04-18 17:12:53, 2021-04-18 17:12:54, -42,       10, (not associated) ,
+94:90:34:CE:00:C4, 2021-04-18 17:12:05, 2021-04-18 17:12:27,  -1,        6, 9A:E7:9A:80:6D:97,
+

@@ -16,8 +16,8 @@ file_csv.dropna(inplace = True)																#nge drop Kolom kosong (Dalam hal
 print(file_csv)
 
 ### Memilih AP Yang ingin dilindungi
-AP_Dilindungi = input("\nSilahkan Pilih Akses Poin yang ingin dilindungi : ")
-AP_Dilindungi = " " + AP_Dilindungi														#Nge trik "satu spasi sebelum" dari isi kolom ESSID hasil Airodumb
+AP_Dilindungi_awal = input("\nSilahkan Pilih Akses Poin yang ingin dilindungi : ")
+AP_Dilindungi = " " + AP_Dilindungi_awal														#Nge trik "satu spasi sebelum" dari isi kolom ESSID hasil Airodumb
 list_AP_BSSID = file_csv["BSSID"].values.tolist()										#Ngubah dataframe ke list supaya gampang if else nya
 list_AP_ESSID = file_csv[" ESSID"].values.tolist()
 index_ESSID = [i for i, e in enumerate(list_AP_ESSID) if e == AP_Dilindungi] #Ngambil No Index dari AP_Dilindungi buat dicocokin sama Index list_AP_BSSID
@@ -26,7 +26,7 @@ print (MAC_AP_Dilindungi)
 
 ### Mulai Fokus memantau AP, dan mencari evil twin
 print("\nSedang mencoba memantau Wifi : " + AP_Dilindungi)
-pantau_fokus = subprocess.call(["sudo","./pantau.sh",AP_Dilindungi])		#Masuk sihh, cuman ngga bisa pake format, harus cari cara lain
+pantau_fokus = subprocess.call(["sudo","./pantau.sh",AP_Dilindungi_awal])		#Masuk sihh, cuman ngga bisa pake format, harus cari cara lain
 				
 ######## WHILE - IF ELSE buat scanning evil twin 
 while True :
@@ -56,7 +56,7 @@ waktu_jam = datetime.now().strftime("%X")
 try:
 	os.mkdir("rekaman/" + waktu_tanggal)
 except:
-	print ("Folder" + waktu_tanggal + "sudah dibuat")
+	print ("Folder " + waktu_tanggal + " sudah dibuat")
 	
 shutil.move("hasil_pantauan-01.csv","rekaman/" + waktu_tanggal + "/" + waktu_jam +".csv")
 shutil.move("hasil_pantauan-01.cap","rekaman/" + waktu_tanggal + "/" + waktu_jam +".cap")

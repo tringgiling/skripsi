@@ -57,7 +57,19 @@ try:
 	os.mkdir("rekaman/" + waktu_tanggal)
 except:
 	print ("Folder " + waktu_tanggal + " sudah dibuat")
-	
+log_mac= open("rekaman/" + waktu_tanggal +"/list_MAC_dilindungi.txt","a")
+log_et = open("rekaman/" + waktu_tanggal +"/list_Evil_Twin.txt","a")
+
+log_mac.write("\n==================\n")
+log_mac.write("Daftar MAC untuk Akses Poin"+ AP_Dilindungi +" yang dilindungi pada " + waktu_jam +"\n")
+log_mac.write(" dan ".join(MAC_AP_Dilindungi))
+log_mac.close
+
+log_et.write("\n==================\n")
+log_et.write("Daftar MAC Evil Twin, Peniru Akses Poin"+ AP_Dilindungi +" Terdeteksi pada " + waktu_jam + "\n")
+log_et.write(" dan ".join(MAC_ET))
+log_et.close
+
 shutil.move("hasil_pantauan-01.csv","rekaman/" + waktu_tanggal + "/" + waktu_jam +".csv")
 shutil.move("hasil_pantauan-01.cap","rekaman/" + waktu_tanggal + "/" + waktu_jam +".cap")
 

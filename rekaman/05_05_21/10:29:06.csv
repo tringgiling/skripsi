@@ -1,0 +1,9 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+D2:F8:8C:3D:A2:AA, 2021-05-05 10:29:05, 2021-05-05 10:29:10,  6,  65, WPA2, CCMP, PSK, -32,        7,        0,   0.  0.  0.  0,  10, wifi ummat, 
+36:97:F6:C7:0C:DC, 2021-05-05 10:28:49, 2021-05-05 10:29:12,  9,  65, WPA2, CCMP, PSK, -28,       34,      888,   0.  0.  0.  0,  10, wifi ummat, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+98:E7:9A:80:6D:97, 2021-05-05 10:28:56, 2021-05-05 10:28:56, -70,        1, 36:97:F6:C7:0C:DC,
+EC:0E:C4:47:D4:17, 2021-05-05 10:28:49, 2021-05-05 10:29:11, -40,      888, 36:97:F6:C7:0C:DC,
+

@@ -1,0 +1,19 @@
+
+==================
+Daftar MAC untuk Akses Poin PHYcareline yang dilindungi pada 15:47:01
+F4:92:BF:AA:3C:81 dan 18:E8:29:91:AB:60
+==================
+Daftar MAC untuk Akses Poin PHYcareline yang dilindungi pada 17:22:09
+18:E8:29:91:AB:60
+==================
+Daftar MAC untuk Akses Poin PHYcoordinator yang dilindungi pada 17:23:37
+F6:92:BF:9A:3C:81
+==================
+Daftar MAC untuk Akses Poin PHYcareline yang dilindungi pada 17:28:58
+18:E8:29:91:AB:60 dan 78:8A:20:2D:27:AB
+==================
+Daftar MAC untuk Akses Poin scania*office yang dilindungi pada 17:41:05
+D8:24:BD:08:39:00
+==================
+Daftar MAC untuk Akses Poin Chatra Global yang dilindungi pada 17:42:19
+28:41:C6:49:63:08

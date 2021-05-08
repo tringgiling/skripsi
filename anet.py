@@ -11,6 +11,7 @@ print("Tunggu Sebentar, sedang melakukan scan AP\n")
 
 ### Scan WIFI di sekitar
 pantau_awal = subprocess.call("sudo ./pantau.sh awal", shell=True) 			# Scanning di awal2 buat milih AP yang mau di lindungi	
+pd.set_option("display.max_rows", 101)
 file_csv = pd.read_csv("hasil_pantauan-01.csv", usecols=["BSSID"," ESSID"]) # Nampilin kolom yang diinginkan aja
 file_csv.dropna(inplace = True)																#nge drop Kolom kosong (Dalam hal ini, nyaring kolom ESSID, jadi dari station Mac kebawah datanya bakal di drop, jadi cuma AP doang yang tampil)
 print(file_csv)
@@ -20,6 +21,7 @@ AP_Dilindungi_awal = input("\nSilahkan Pilih Akses Poin yang ingin dilindungi : 
 AP_Dilindungi = " " + AP_Dilindungi_awal														#Nge trik "satu spasi sebelum" dari isi kolom ESSID hasil Airodumb
 list_AP_BSSID = file_csv["BSSID"].values.tolist()										#Ngubah dataframe ke list supaya gampang if else nya
 list_AP_ESSID = file_csv[" ESSID"].values.tolist()
+time.sleep(3)
 index_ESSID = [i for i, e in enumerate(list_AP_ESSID) if e == AP_Dilindungi] #Ngambil No Index dari AP_Dilindungi buat dicocokin sama Index list_AP_BSSID
 MAC_AP_Dilindungi = [list_AP_BSSID[i] for i in index_ESSID]							#Ngambil Alamat MAC yang baris nya sama kaya AP_Dilindungi
 print (MAC_AP_Dilindungi)

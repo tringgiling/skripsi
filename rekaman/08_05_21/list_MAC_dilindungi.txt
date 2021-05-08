@@ -1,0 +1,19 @@
+
+==================
+Daftar MAC untuk Akses Poin PHYcareline yang dilindungi pada 08:19:41
+18:E8:29:91:AB:60 dan 78:8A:20:2D:27:AB
+==================
+Daftar MAC untuk Akses Poin PHYcoordinator yang dilindungi pada 08:21:53
+F6:92:BF:9A:3C:81 dan 1A:E8:29:91:AB:60 dan 7A:8A:20:2D:27:AB
+==================
+Daftar MAC untuk Akses Poin PHYcareline yang dilindungi pada 08:16:26
+78:8A:20:2D:27:AB dan F4:92:BF:AA:3C:81 dan 18:E8:29:91:AB:60
+==================
+Daftar MAC untuk Akses Poin PHYcareline yang dilindungi pada 08:28:18
+78:8A:20:2D:27:AB dan F4:92:BF:AA:3C:81 dan 18:E8:29:91:AB:60
+==================
+Daftar MAC untuk Akses Poin PHYcareline yang dilindungi pada 08:31:14
+78:8A:20:2D:27:AB dan F4:92:BF:AA:3C:81 dan 18:E8:29:91:AB:60 dan F4:92:BF:AA:40:A1
+==================
+Daftar MAC untuk Akses Poin PHYcareline yang dilindungi pada 12:48:57
+F4:92:BF:AA:40:A1

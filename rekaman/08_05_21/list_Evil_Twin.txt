@@ -1,0 +1,19 @@
+
+==================
+Daftar MAC Evil Twin, Peniru Akses Poin PHYcareline Terdeteksi pada 08:19:41
+F4:92:BF:AA:40:A1
+==================
+Daftar MAC Evil Twin, Peniru Akses Poin PHYcoordinator Terdeteksi pada 08:21:53
+F6:92:BF:9A:4B:35
+==================
+Daftar MAC Evil Twin, Peniru Akses Poin PHYcareline Terdeteksi pada 08:16:26
+F4:92:BF:AA:40:A1
+==================
+Daftar MAC Evil Twin, Peniru Akses Poin PHYcareline Terdeteksi pada 08:28:18
+F4:92:BF:AA:40:A1
+==================
+Daftar MAC Evil Twin, Peniru Akses Poin PHYcareline Terdeteksi pada 08:31:14
+F4:92:BF:AA:4B:35
+==================
+Daftar MAC Evil Twin, Peniru Akses Poin PHYcareline Terdeteksi pada 12:48:57
+F4:92:BF:AA:4B:35

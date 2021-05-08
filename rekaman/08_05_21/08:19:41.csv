@@ -1,0 +1,13 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+F4:92:BF:AA:40:A1, 2021-05-08 08:19:40, 2021-05-08 08:19:40,  9, 130, WPA2, CCMP, PSK, -87,        0,        0,   0.  0.  0.  0,  11, PHYcareline, 
+F4:92:BF:AA:4B:35, 2021-05-08 08:19:45, 2021-05-08 08:19:48,  5, 130, WPA2, CCMP, PSK, -71,        1,        2,   0.  0.  0.  0,  11, PHYcareline, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+94:87:E0:7A:76:D3, 2021-05-08 08:19:50, 2021-05-08 08:19:50, -87,        1, 18:E8:29:91:AB:60,
+1A:59:88:E5:E8:6D, 2021-05-08 08:19:43, 2021-05-08 08:19:43, -82,        2, 18:E8:29:91:AB:60,
+DA:A1:19:07:91:6C, 2021-05-08 08:19:43, 2021-05-08 08:19:43, -65,        6, (not associated) ,cari,OPPO 1202,icalkeren,BAGUS,Motivator School,Mimiema
+2C:5D:34:EF:35:B5, 2021-05-08 08:19:47, 2021-05-08 08:19:50,  -1,        7, 18:E8:29:91:AB:60,
+0C:98:38:29:07:5B, 2021-05-08 08:19:48, 2021-05-08 08:19:48,  -1,        2, F4:92:BF:AA:4B:35,
+70:DD:A8:57:1D:60, 2021-05-08 08:19:53, 2021-05-08 08:19:53, -85,        1, 18:E8:29:91:AB:60,
+

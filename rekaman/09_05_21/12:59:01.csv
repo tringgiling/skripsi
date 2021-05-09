@@ -1,0 +1,13 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+FC:A6:CD:31:9F:B0, 2021-05-09 12:58:50, 2021-05-09 12:59:05,  2, 130, WPA2 WPA, CCMP, PSK, -90,        5,        0,   0.  0.  0.  0,  13, Euronet-Guest, 
+D2:F8:8C:3D:A2:AA, 2021-05-09 12:59:00, 2021-05-09 12:59:03,  6,  65, OPN, ,   , -55,        5,        0,   0.  0.  0.  0,  13, Euronet-Guest, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+40:B0:76:67:4E:78, 2021-05-09 12:58:52, 2021-05-09 12:58:52, -81,        2, 18:E8:29:91:AB:60,
+1A:59:88:E5:E8:6D, 2021-05-09 12:58:56, 2021-05-09 12:58:56, -81,        1, 18:E8:29:91:AB:60,
+B0:E2:35:91:DE:42, 2021-05-09 12:59:03, 2021-05-09 12:59:03, -79,        2, (not associated) ,ACT-FOUNDATION
+68:BF:C4:01:C2:3C, 2021-05-09 12:58:59, 2021-05-09 12:58:59, -70,        3, 1A:E8:29:91:AB:60,
+62:20:07:40:AC:8E, 2021-05-09 12:58:59, 2021-05-09 12:58:59, -69,        2, 18:E8:29:91:AB:60,
+7C:2A:DB:BA:10:04, 2021-05-09 12:59:04, 2021-05-09 12:59:04, -83,        2, 18:E8:29:91:AB:60,
+

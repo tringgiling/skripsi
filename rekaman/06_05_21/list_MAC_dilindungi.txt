@@ -17,3 +17,6 @@ D8:24:BD:08:39:00
 ==================
 Daftar MAC untuk Akses Poin Chatra Global yang dilindungi pada 17:42:19
 28:41:C6:49:63:08
+==================
+Daftar MAC untuk Akses Poin PHYcareline yang dilindungi pada 18:31:50
+78:8A:20:2D:27:AB dan F4:92:BF:AA:3C:81

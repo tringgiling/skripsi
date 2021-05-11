@@ -1,0 +1,41 @@
+
+==================
+Tanggal : 11_05_21
+Waktu : 18:25:55
+Akses Poin (AP) Yang Dilindungi :  PHYcareline
+MAC Address  AP Yang Dilindungi: F4:92:BF:AA:40:A1 dan 78:8A:20:2D:27:AB dan F4:92:BF:AA:4B:35 dan F4:92:BF:AA:3C:81 dan 18:E8:29:91:AB:60
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  PHYcareline
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+==================
+Tanggal : 11_05_21
+Waktu : 18:27:25
+Akses Poin (AP) Yang Dilindungi :  scania-mobile
+MAC Address  AP Yang Dilindungi: D8:24:BD:08:39:01
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  scania-mobile
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+==================
+Tanggal : 11_05_21
+Waktu : 18:28:47
+Akses Poin (AP) Yang Dilindungi :  Euronet-Guest
+MAC Address  AP Yang Dilindungi: FC:A6:CD:31:9F:B0
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Euronet-Guest
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+==================
+Tanggal : 11_05_21
+Waktu : 18:33:23
+Akses Poin (AP) Yang Dilindungi :  PHYcoordinator
+MAC Address  AP Yang Dilindungi: 7A:8A:20:2D:27:AB dan F6:92:BF:9A:4B:35 dan F6:92:BF:9A:3C:81 dan 1A:E8:29:91:AB:60
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  PHYcoordinator
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+==================
+Tanggal : 11_05_21
+Waktu : 18:45:02
+Akses Poin (AP) Yang Dilindungi :  PHYcoordinator
+MAC Address  AP Yang Dilindungi: F6:92:BF:9A:40:A1 dan 7A:8A:20:2D:27:AB dan F6:92:BF:9A:4B:35 dan F6:92:BF:9A:3C:81 dan 1A:E8:29:91:AB:60
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  PHYcoordinator
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC

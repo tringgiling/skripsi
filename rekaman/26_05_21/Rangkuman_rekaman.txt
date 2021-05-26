@@ -1,0 +1,9 @@
+
+==================
+Tanggal : 26_05_21
+Waktu : 16:18:42
+Akses Poin (AP) Yang Dilindungi :  PHYcareline
+MAC Address  AP Yang Dilindungi: F0:9F:C2:6C:11:7B dan 68:D7:9A:74:35:EB dan F4:92:BF:AA:40:A1 dan 78:8A:20:2D:27:AB dan F4:92:BF:AA:4B:35 dan 18:E8:29:91:AB:60 dan F4:92:BF:AA:3C:81
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  PHYcareline
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC

@@ -38,6 +38,7 @@ while True :
 	file_csv_fokus.dropna(inplace = True)
 	AP_scan = file_csv_fokus[" ESSID"].values.tolist()
 	MAC_scan = file_csv_fokus["BSSID"].values.tolist()
+	channel_scan = file_csv_fokus[" channel"].values.tolist()
 	MAC_ET = [x for x in MAC_scan if x not in MAC_AP_Dilindungi]
 	print(file_csv_fokus)
 	
@@ -52,6 +53,11 @@ while True :
 		bersih_layar = subprocess.call('clear')
 
 ### Target Lock, siap serang balik
+index_channel = MAC_scan.index(MAC_ET[0])											#[i for i, e in enumerate(MAC_scan) if e == MAC_ET]
+channel_ET = channel_scan[index_channel] 
+subprocess.run(["sudo", "tmux", "kill-session", "-t", "0"]) 							# mattin airodump nya bentar, biar bisa mindahin fokus airmon ke channel ET
+subprocess.run(["sudo", "airmon-ng", "start", "wlan1mon", channel_ET])
+subprocess.run(["sudo", "aireplay-ng", "--deauth", "0", "-a", MAC_ET[0], "wlan1mon"])
 
 
 ### Menyimpan Rekaman (File Log)
@@ -62,7 +68,6 @@ try:
 except:
 	print ("Folder " + waktu_tanggal + " sudah dibuat")
 log_mac= open("rekaman/" + waktu_tanggal +"/Rangkuman_rekaman.txt","a")
-#log_et = open("rekaman/" + waktu_tanggal +"/list_Evil_Twin.txt","a")
 
 log_mac.write("\n==================\n")
 log_mac.write("Tanggal : " + waktu_tanggal +"\n")
@@ -73,12 +78,8 @@ log_mac.write(" dan ".join(MAC_AP_Dilindungi) + "\n" + "\n")
 log_mac.write("Evil Twin yang terdeteksi, Peniru Akses Poin : "+ AP_Dilindungi + "\n")
 log_mac.write("MAC Address  Evil Twin Yang Terdeteksi: ")
 log_mac.write(" dan ".join(MAC_ET))
+log_mac.write("\nChannel yang dipakai Evil twin : " + channel_ET)
 log_mac.close
-
-# log_et.write("\n==================\n")
-# log_et.write("Daftar MAC Evil Twin, Peniru Akses Poin"+ AP_Dilindungi +" Terdeteksi pada " + waktu_jam + "\n")
-# log_et.write(" dan ".join(MAC_ET))
-# log_et.close
 
 shutil.move("hasil_pantauan-01.csv","rekaman/" + waktu_tanggal + "/" + waktu_jam +".csv")
 shutil.move("hasil_pantauan-01.cap","rekaman/" + waktu_tanggal + "/" + waktu_jam +".cap")

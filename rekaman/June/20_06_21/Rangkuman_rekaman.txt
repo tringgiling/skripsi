@@ -1,0 +1,10 @@
+
+==================
+Tanggal : 20_06_21
+Waktu : 23:23:23
+Akses Poin (AP) Yang Dilindungi :  PARLEYHRR
+MAC Address  AP Yang Dilindungi: 74:B5:7E:B3:32:B8
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  PARLEYHRR
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13

@@ -63,12 +63,13 @@ subprocess.run(["sudo", "aireplay-ng", "--deauth", "0", "-a", MAC_ET[0], "wlan1m
 ### Menyimpan Rekaman (File Log)
 waktu_tanggal = datetime.now().strftime("%d_%m_%y")
 waktu_jam = datetime.now().strftime("%X")
+bulan = datetime.now().strftime("%B")
 try:
-	os.mkdir("rekaman/" + waktu_tanggal)
+	os.makedirs("rekaman/" + bulan + "/" + waktu_tanggal)
 except:
-	print ("Folder " + waktu_tanggal + " sudah dibuat")
-log_mac= open("rekaman/" + waktu_tanggal +"/Rangkuman_rekaman.txt","a")
-
+	print ("Folder " + bulan + "/" + waktu_tanggal + " sudah dibuat")
+	
+log_mac= open("rekaman/" + bulan + "/" + waktu_tanggal +"/Rangkuman_rekaman.txt","a")
 log_mac.write("\n==================\n")
 log_mac.write("Tanggal : " + waktu_tanggal +"\n")
 log_mac.write("Waktu : " + waktu_jam +"\n")
@@ -81,8 +82,8 @@ log_mac.write(" dan ".join(MAC_ET))
 log_mac.write("\nChannel yang dipakai Evil twin : " + channel_ET)
 log_mac.close
 
-shutil.move("hasil_pantauan-01.csv","rekaman/" + waktu_tanggal + "/" + waktu_jam +".csv")
-shutil.move("hasil_pantauan-01.cap","rekaman/" + waktu_tanggal + "/" + waktu_jam +".cap")
+shutil.move("hasil_pantauan-01.csv","rekaman/" + bulan + "/" + waktu_tanggal + "/" + waktu_jam +".csv")
+shutil.move("hasil_pantauan-01.cap","rekaman/" + bulan + "/" + waktu_tanggal + "/" + waktu_jam +".cap")
 
 
 ### Kalau ingin menutup Aplikasi 		

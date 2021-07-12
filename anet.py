@@ -4,89 +4,228 @@ import pandas as pd
 import shutil
 import os
 from datetime import datetime
+import PySimpleGUI as sg
 
-### Sambutan																
-print ("Selamat Datang Di Anti Evil Twin !!!")
-print("Tunggu Sebentar, sedang melakukan scan AP\n")
-
+interface = "wlan0mon"  #kalau di raspberry ganti ke wlan1mon
 ### Scan WIFI di sekitar
 pantau_awal = subprocess.call("sudo ./pantau.sh awal", shell=True) 			# Scanning di awal2 buat milih AP yang mau di lindungi	
-pd.set_option("display.max_rows", 101)
-file_csv = pd.read_csv("hasil_pantauan-01.csv", usecols=["BSSID"," ESSID"]) # Nampilin kolom yang diinginkan aja
-file_csv.dropna(inplace = True)																#nge drop Kolom kosong (Dalam hal ini, nyaring kolom ESSID, jadi dari station Mac kebawah datanya bakal di drop, jadi cuma AP doang yang tampil)
-print(file_csv)
+file_csv_akhir = [["                  ","                  "]]
 
-### Memilih AP Yang ingin dilindungi
-AP_Dilindungi_awal = input("\nSilahkan Pilih Akses Poin yang ingin dilindungi : ")
-AP_Dilindungi = " " + AP_Dilindungi_awal														#Nge trik "satu spasi sebelum" dari isi kolom ESSID hasil Airodumb
-file_csv = pd.read_csv("hasil_pantauan-01.csv", usecols=["BSSID"," ESSID"]) # Nampilin kolom yang diinginkan aja
-file_csv.dropna(inplace = True)																#nge drop Kolom kosong (Dalam hal ini, nyaring kolom ESSID, jadi dari station Mac kebawah datanya bakal di drop, jadi cuma AP doang yang tampil)
-list_AP_BSSID = file_csv["BSSID"].values.tolist()										#Ngubah dataframe ke list supaya gampang if else nya
-list_AP_ESSID = file_csv[" ESSID"].values.tolist()
-time.sleep(3)
-index_ESSID = [i for i, e in enumerate(list_AP_ESSID) if e == AP_Dilindungi] #Ngambil No Index dari AP_Dilindungi buat dicocokin sama Index list_AP_BSSID
-MAC_AP_Dilindungi = [list_AP_BSSID[i] for i in index_ESSID]							#Ngambil Alamat MAC yang baris nya sama kaya AP_Dilindungi
-print (MAC_AP_Dilindungi)
-
-### Mulai Fokus memantau AP, dan mencari evil twin
-print("\nSedang mencoba memantau Wifi : " + AP_Dilindungi)
-pantau_fokus = subprocess.call(["sudo","./pantau.sh",AP_Dilindungi_awal])		#Masuk sihh, cuman ngga bisa pake format, harus cari cara lain
-				
-######## WHILE - IF ELSE buat scanning evil twin 
-while True :
-	file_csv_fokus = pd.read_csv("hasil_pantauan-01.csv", usecols=["BSSID"," ESSID"," channel"," Power"])
-	file_csv_fokus.dropna(inplace = True)
-	AP_scan = file_csv_fokus[" ESSID"].values.tolist()
-	MAC_scan = file_csv_fokus["BSSID"].values.tolist()
-	channel_scan = file_csv_fokus[" channel"].values.tolist()
-	MAC_ET = [x for x in MAC_scan if x not in MAC_AP_Dilindungi]
-	print(file_csv_fokus)
-	
-	if AP_Dilindungi in AP_scan and MAC_ET  :
-		print ("\nAda Evil Twin, MAC nya sebagai berikut : ")
-		print(" dan ".join(MAC_ET))
-		break
-		
-	else:
-		print ("Belum terdeteksi")
-		time.sleep(0.7)
-		bersih_layar = subprocess.call('clear')
-
-### Target Lock, siap serang balik
-index_channel = MAC_scan.index(MAC_ET[0])											#[i for i, e in enumerate(MAC_scan) if e == MAC_ET]
-channel_ET = channel_scan[index_channel] 
-subprocess.run(["sudo", "tmux", "kill-session", "-t", "0"]) 							# mattin airodump nya bentar, biar bisa mindahin fokus airmon ke channel ET
-subprocess.run(["sudo", "airmon-ng", "start", "wlan1mon", channel_ET])
-subprocess.run(["sudo", "aireplay-ng", "--deauth", "0", "-a", MAC_ET[0], "wlan1mon"])
+MAC_ET = ['                  ']
+AP = "                  "
+channel_ET = " "
+power_ET = "   "
+waktu_jam = "        "
+jumlah_paket_deauth = 0
 
 
-### Menyimpan Rekaman (File Log)
 waktu_tanggal = datetime.now().strftime("%d_%m_%y")
-waktu_jam = datetime.now().strftime("%X")
 bulan = datetime.now().strftime("%B")
-try:
-	os.makedirs("rekaman/" + bulan + "/" + waktu_tanggal)
-except:
-	print ("Folder " + bulan + "/" + waktu_tanggal + " sudah dibuat")
+#GUI Scan Akses Poin
+
+def buat_window1():
+	layout = [
+		[sg.Button("Scan AP",
+                  key= '-tombol_layout_1-'),
+        sg.Button("Evil Twin",
+                  key='-tombol_layout_2-'),
+        sg.Button("Rekaman",
+                  key='-tombol_layout_3-')
+                  ],
+        [sg.Text('Menu Scan Akses Poin',font=(20),justification=('center'))],
+        [sg.Table(values=file_csv_akhir,
+                  headings=["Akses Poin" , "BSSID"],
+                  display_row_numbers=True,
+                  auto_size_columns=True,
+                  justification = "center",
+                  enable_events = True,
+                  bind_return_key = True,
+                  key='-tabel_AP-',
+                  num_rows=5)],
+         #[sg.InputText(key='-pilih_AP-')],
+         [sg.Button('Scan Akses Poin',
+				  #image_filename= 'silang.png',
+                  image_size= (50,20), 
+				  #button_color=(sg.theme_background_color(),sg.theme_background_color()),
+				  key='-tombol_scan-'),
+         sg.Button('Pilih Akses Poin',
+				  #image_filename= 'silang.png',
+                  image_size= (50,20), 
+				  #button_color=(sg.theme_background_color(),sg.theme_background_color()),
+				  key='-tombol_pilih_AP-')]
+    ]
+	return sg.Window('Anet', layout, finalize=True)
+#===========================================================
+def buat_window2():
+	layout= [
+		[sg.Button("Scan AP",
+                  key= '-tombol_layout_1-'),
+        sg.Button("Evil Twin",
+                  key='-tombol_layout_2-'),
+        sg.Button("Rekaman",
+                  key='-tombol_layout_3-')
+                  ],
+		[sg.Text('                               Evil Twin Terdeteksi                ', font=(20))],
+		[sg.Table(values= [[AP,MAC_ET[0],power_ET,channel_ET,waktu_jam]],
+				headings=["SSID","BSSID","Power (dBm)","Kanal", "Terdeteksi"],
+				auto_size_columns=True,
+				justification = "center",
+				key='-tabel_ET-')],
+		[sg.Text('SSID Akses Poin yang dilindungi  '),
+		 sg.Text(' : -                  ',auto_size_text = True, key = '-nama_AP-')],
+		[sg.Text('Status Serangan Kepada Evil Twin '),
+		 sg.Text(': -         ',auto_size_text = True, key = '-status_ET-')],
+		[sg.Text('Jumlah Paket Serangan Terkirim '), 
+		 sg.Text("   : " + str(jumlah_paket_deauth) + " buah",
+					auto_size_text = True,)],
+		[sg.Button('Mulai Pencarian ET',key='-tombol_cari-'),
+		 sg.Button('Hentikan Serangan', key='-tombol_serangan')]
+				]
+	return sg.Window('Anet', layout, finalize=True)
+#===========================================================
+def buat_window3():
+	layout = [
+		[sg.Button("Scan AP",
+                  key= '-tombol_layout_1-'),
+        sg.Button("Evil Twin",
+                  key='-tombol_layout_2-'),
+        sg.Button("Rekaman",
+                  key='-tombol_layout_3-')
+                  ],
+        [sg.Text('Eksport Rekaman (Log)',font=(20),justification=('center'))],
+        [sg.Button('Packet Capture'),
+         sg.InputText(" ",key='-pcap-',readonly=True)],
+        [sg.Button('    Tabel AP     '),
+         sg.InputText("  ",key='-csv-',readonly=True)],
+        [sg.Button('   Ringkasan    '),
+         sg.InputText(" ",key='-txt-',readonly=True)],
+         [sg.Button('Eksport', key='-eksport-')]
+    ]
+	return sg.Window('ANET', layout, finalize=True)
+#===========================================================
+def main():
+	window1 = buat_window1()
+	window2 = buat_window2()
+	window3 = buat_window3()
+	window2.hide()
+	window3.hide()
 	
-log_mac= open("rekaman/" + bulan + "/" + waktu_tanggal +"/Rangkuman_rekaman.txt","a")
-log_mac.write("\n==================\n")
-log_mac.write("Tanggal : " + waktu_tanggal +"\n")
-log_mac.write("Waktu : " + waktu_jam +"\n")
-log_mac.write("Akses Poin (AP) Yang Dilindungi : "+ AP_Dilindungi +"\n")
-log_mac.write("MAC Address  AP Yang Dilindungi: ")
-log_mac.write(" dan ".join(MAC_AP_Dilindungi) + "\n" + "\n")
-log_mac.write("Evil Twin yang terdeteksi, Peniru Akses Poin : "+ AP_Dilindungi + "\n")
-log_mac.write("MAC Address  Evil Twin Yang Terdeteksi: ")
-log_mac.write(" dan ".join(MAC_ET))
-log_mac.write("\nChannel yang dipakai Evil twin : " + channel_ET)
-log_mac.close
+	while True:
+		window, event, values = sg.read_all_windows()
+		if event == sg.WIN_CLOSED:
+			stop_pantau = subprocess.call("sudo ./stop_pantau.sh", shell=True)
+			break
+		
+		if window == window1: 					# Semua Event yang ada di layout menu scan AP, masuk sini semua
+			if event == '-tombol_layout_2-':
+				window1.hide()
+				window2.un_hide()
+				window3.hide()
+			if event == '-tombol_layout_3-':
+				window1.hide()
+				window2.hide()
+				window3.un_hide()
+				
+			if event  == '-tombol_scan-':
+				file_csv = pd.read_csv("hasil_pantauan-01.csv")
+				kolom_tampil = [" ESSID","BSSID"]
+				file_csv=file_csv.reindex(columns=kolom_tampil)
+				file_csv.dropna(inplace = True)	
+				file_csv_akhir = file_csv.values.tolist()
+				window['-tabel_AP-'].update(file_csv_akhir)
+		        
+			if event == '-tombol_pilih_AP-' :
+				list_AP_BSSID = file_csv["BSSID"].values.tolist()
+				list_AP_ESSID = file_csv[" ESSID"].values.tolist()
+				AP_Dilindungi = list_AP_ESSID[(values['-tabel_AP-'])[0]]
+				index_ESSID = [i for i, e in enumerate(list_AP_ESSID) if e == AP_Dilindungi]
+				MAC_AP_Dilindungi = [list_AP_BSSID[i] for i in index_ESSID]
+				print(list_AP_BSSID)
+				print(MAC_AP_Dilindungi)
+				print("nilainya adalah " + str(values['-tabel_AP-']))
+				sg.popup("Akses Poin Terpilih :"+AP_Dilindungi)
+			
+		if window == window2: 					# Semua Event yang ada di layout menu ET Terdeteksi, masuk sini semua
+			if event == '-tombol_layout_1-':
+				window1.un_hide()
+				window2.hide()
+				window3.hide()
+			if event == '-tombol_layout_3-':
+				window1.hide()
+				window2.hide()
+				window3.un_hide()
+			
+			if event == '-tombol_cari-':
+				window['-nama_AP-'].update(AP_Dilindungi)
+				pantau_fokus = subprocess.call(["sudo","./pantau.sh",AP_Dilindungi.lstrip()])
+				
+				while True :
+					file_csv_fokus = pd.read_csv("hasil_pantauan-01.csv", usecols=["BSSID"," ESSID"," channel"," Power"])
+					file_csv_fokus.dropna(inplace = True)
+					AP_scan = file_csv_fokus[" ESSID"].values.tolist()
+					MAC_scan = file_csv_fokus["BSSID"].values.tolist()
+					channel_scan = file_csv_fokus[" channel"].values.tolist()
+					power_scan = file_csv_fokus[" Power"].values.tolist()
+					MAC_ET = [x for x in MAC_scan if x not in MAC_AP_Dilindungi]
+					
+					if AP_Dilindungi in AP_scan and MAC_ET  :
+						waktu_jam = datetime.now().strftime("%X")
+						index_MAC_ET = MAC_scan.index(MAC_ET[0])																	#[i for i, e in enumerate(MAC_scan) if e == MAC_ET]
+						channel_ET = channel_scan[index_MAC_ET]
+						power_ET =  power_scan[index_MAC_ET]
+						window['-tabel_ET-'].update([[AP_Dilindungi,MAC_ET[0],power_ET,channel_ET,waktu_jam]])
+						window['-status_ET-'].update("Berjalan")
+						subprocess.run(["sudo", "tmux", "kill-server"])
+						time.sleep(3)
+						subprocess.run(["sudo", "airmon-ng", "start", interface, str(channel_ET).lstrip()])
+						subprocess.call(["sudo", "./pantau.sh", "serang",MAC_ET[0].lstrip()])
+						break
+					
+					time.sleep(0.7)
 
-shutil.move("hasil_pantauan-01.csv","rekaman/" + bulan + "/" + waktu_tanggal + "/" + waktu_jam +".csv")
-shutil.move("hasil_pantauan-01.cap","rekaman/" + bulan + "/" + waktu_tanggal + "/" + waktu_jam +".cap")
+			if event == '-tombol_serangan-':
+				subprocess.run(["sudo", "tmux", "kill-server"])
+			
+		if window == window3:
+			if event == '-tombol_layout_1-':
+				window1.un_hide()
+				window2.hide()
+				window3.hide()
+			if event == '-tombol_layout_2-':
+				window1.hide()
+				window2.un_hide()
+				window3.hide()
+			
+			
+			
+			if event == '-eksport-' :
+				try:
+					os.makedirs("rekaman/" + bulan + "/" + waktu_tanggal)
+				except:
+					sg.popup ("Folder " + bulan + "/" + waktu_tanggal + " sudah dibuat")
+				
+				window['-pcap-'].update("rekaman/" + bulan + "/" + waktu_tanggal + "/" + waktu_jam +".cap")
+				window['-csv-'].update("rekaman/" + bulan + "/" + waktu_tanggal + "/" + waktu_jam +".csv")
+				window['-txt-'].update("rekaman/" + bulan + "/" + waktu_tanggal + "/Rangkuman_rekaman.txt")
+				log_mac= open("rekaman/" + bulan + "/" + waktu_tanggal +"/Rangkuman_rekaman.txt","a")
+				log_mac.write("\n==================\n")
+				log_mac.write("Tanggal : " + waktu_tanggal +"\n")
+				log_mac.write("Waktu : " + waktu_jam +"\n")
+				log_mac.write("Akses Poin (AP) Yang Dilindungi : "+ AP_Dilindungi +"\n")
+				log_mac.write("MAC Address  AP Yang Dilindungi: ")
+				log_mac.write(" dan ".join(MAC_AP_Dilindungi) + "\n" + "\n")
+				log_mac.write("Evil Twin yang terdeteksi, Peniru Akses Poin : "+ AP_Dilindungi + "\n")
+				log_mac.write("MAC Address  Evil Twin Yang Terdeteksi: ")
+				log_mac.write(" dan ".join(MAC_ET))
+				log_mac.write("\nChannel yang dipakai Evil twin : " + channel_ET)
+				log_mac.close
+				shutil.move("hasil_pantauan-01.csv","rekaman/" + bulan + "/" + waktu_tanggal + "/" + waktu_jam +".csv")
+				shutil.move("hasil_pantauan-01.cap","rekaman/" + bulan + "/" + waktu_tanggal + "/" + waktu_jam +".cap")
+				shutil.move("serang-01.cap","rekaman/" + bulan + "/" + waktu_tanggal + "/" + waktu_jam +"-serang.cap")
+			
+	window1.close()
+	window2.close()
+	window3.close()
 
-
-### Kalau ingin menutup Aplikasi 		
-pause1 = input("\nHentikan Proses? (enter)")	
-stop_pantau = subprocess.call("sudo ./stop_pantau.sh", shell=True)					# ngestop airodump, kalau semuanya udah beres
-
+if __name__ == '__main__':
+	main()

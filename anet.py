@@ -6,7 +6,7 @@ import os
 from datetime import datetime
 import PySimpleGUI as sg
 
-interface = "wlan0mon"  #kalau di raspberry ganti ke wlan1mon
+interface = "wlan1mon"  #kalau di laptop ganti ke wlan0mon
 ### Scan WIFI di sekitar
 pantau_awal = subprocess.call("sudo ./pantau.sh awal", shell=True) 			# Scanning di awal2 buat milih AP yang mau di lindungi	
 file_csv_akhir = [["                  ","                  "]]

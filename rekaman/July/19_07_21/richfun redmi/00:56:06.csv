@@ -1,0 +1,10 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+A2:76:1B:E4:7B:DB, 2021-07-19 00:55:59, 2021-07-19 00:56:04,  8, 360, WPA2, CCMP, PSK, -57,        8,        0,   0.  0.  0.  0,  22, richfun_Redmi-Note9Pro, 
+36:97:F6:C7:0C:DC, 2021-07-19 00:56:05, 2021-07-19 00:56:05, 13,  54, WPA2, CCMP, PSK, -40,        1,        0,   0.  0.  0.  0,  22, richfun_Redmi-Note9Pro, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+98:E7:9A:80:6D:97, 2021-07-19 00:56:01, 2021-07-19 00:56:01, -61,        4, EA:37:45:F2:B5:0B,
+34:97:F6:C7:0C:DC, 2021-07-19 00:55:59, 2021-07-19 00:55:59, -51,        4, D2:F8:8C:3D:A2:AA,
+36:97:F6:C7:0C:DC, 2021-07-19 00:56:04, 2021-07-19 00:56:04, -40,        5, (not associated) ,
+

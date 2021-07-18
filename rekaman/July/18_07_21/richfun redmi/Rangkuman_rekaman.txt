@@ -1,0 +1,316 @@
+
+==================
+Tanggal : 19_07_21
+Waktu : 00:34:24
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 00:36:11
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 00:43:42
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 00:44:31
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 00:45:09
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 00:45:45
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 00:46:27
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 00:56:06
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 00:56:42
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 00:57:33
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 00:58:25
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 00:58:52
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 00:59:32
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:00:21
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:03:05
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:04:01
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:07:58
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:08:46
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:09:05
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:09:39
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:10:09
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:10:39
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:11:01
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:11:33
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:11:55
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:12:22
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:12:40
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:13:45
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:14:05
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:14:31
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:14:57
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:15:28
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:15:48
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:16:10
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 19_07_21
+Waktu : 01:16:42
+Akses Poin (AP) Yang Dilindungi :  richfun_Redmi-Note9Pro
+MAC Address  AP Yang Dilindungi: A2:76:1B:E4:7B:DB
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  richfun_Redmi-Note9Pro
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13

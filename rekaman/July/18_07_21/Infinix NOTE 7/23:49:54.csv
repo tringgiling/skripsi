@@ -1,0 +1,7 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+EA:37:45:F2:B5:0B, 2021-07-18 23:49:42, 2021-07-18 23:49:52,  3, 180, WPA2, CCMP, PSK, -52,       18,        0,   0.  0.  0.  0,  14, Infinix NOTE 7, 
+36:97:F6:C7:0C:DC, 2021-07-18 23:49:53, 2021-07-18 23:49:53, 13,  54, WPA2, CCMP, PSK, -66,        1,        0,   0.  0.  0.  0,  14, Infinix NOTE 7, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+

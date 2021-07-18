@@ -1,0 +1,280 @@
+
+==================
+Tanggal : 18_07_21
+Waktu : 21:14:36
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 22:39:48
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 22:41:28
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 22:42:31
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 22:43:28
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 22:44:24
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 22:45:14
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 22:45:59
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 22:47:02
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 22:47:55
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 22:49:08
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 22:50:47
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:00:36
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:01:37
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:03:19
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:05:17
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:07:02
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:08:33
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:13:01
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:13:51
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:14:38
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:15:40
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:16:39
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:17:51
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:18:36
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:19:42
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:20:47
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:21:45
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:22:36
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:29:09
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:29:56
+Akses Poin (AP) Yang Dilindungi :  motorolla
+MAC Address  AP Yang Dilindungi: D2:F8:8C:3D:A2:AA
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  motorolla
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13

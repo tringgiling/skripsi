@@ -1,0 +1,316 @@
+
+==================
+Tanggal : 18_07_21
+Waktu : 23:34:34
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:35:39
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:36:39
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:37:54
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:38:28
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:39:21
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:40:10
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:41:11
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:41:51
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:42:34
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:43:29
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:44:47
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:45:36
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:46:29
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:47:26
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:48:04
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:49:03
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:49:54
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:50:50
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:51:44
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 23:53:05
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 00:12:38
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 00:13:12
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 00:13:49
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 00:14:25
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 00:15:05
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 00:15:42
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 00:16:35
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 00:17:13
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 00:18:01
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 00:18:45
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 00:19:35
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 00:20:18
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 00:21:56
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13
+==================
+Tanggal : 18_07_21
+Waktu : 00:22:44
+Akses Poin (AP) Yang Dilindungi :  Infinix NOTE 7
+MAC Address  AP Yang Dilindungi: EA:37:45:F2:B5:0B
+
+Evil Twin yang terdeteksi, Peniru Akses Poin :  Infinix NOTE 7
+MAC Address  Evil Twin Yang Terdeteksi: 36:97:F6:C7:0C:DC
+Channel yang dipakai Evil twin :  13

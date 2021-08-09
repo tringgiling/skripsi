@@ -6,7 +6,7 @@ import os
 from datetime import datetime
 import PySimpleGUI as sg
 
-interface = "wlan1mon"  #kalau di laptop ganti ke wlan0mon ya
+interface = "wlan1mon"  #buat raspii
 ### Scan WIFI di sekitar
 pantau_awal = subprocess.call("sudo ./pantau.sh awal", shell=True) 			# Scanning di awal2 buat milih AP yang mau di lindungi	
 file_csv_akhir = [["                  ","                  "]]
@@ -32,7 +32,7 @@ def buat_window1():
         sg.Button("Rekaman",
                   key='-tombol_layout_3-')
                   ],
-        [sg.Text('Menu Scan Akses Poin',font=(20),justification=('center'))],
+        [sg.Text('Menu Scan Access Point',font=(20),justification=('center'))],
         [sg.Table(values=file_csv_akhir,
                   headings=["Akses Poin" , "BSSID"],
                   display_row_numbers=True,
@@ -43,12 +43,12 @@ def buat_window1():
                   key='-tabel_AP-',
                   num_rows=5)],
          #[sg.InputText(key='-pilih_AP-')],
-         [sg.Button('Scan Akses Poin',
+         [sg.Button('Scan Access Point',
 				  #image_filename= 'silang.png',
                   image_size= (50,20), 
 				  #button_color=(sg.theme_background_color(),sg.theme_background_color()),
 				  key='-tombol_scan-'),
-         sg.Button('Pilih Akses Poin',
+         sg.Button('Pilih Access Point',
 				  #image_filename= 'silang.png',
                   image_size= (50,20), 
 				  #button_color=(sg.theme_background_color(),sg.theme_background_color()),
@@ -79,7 +79,8 @@ def buat_window2():
 		 sg.Text("   : " + str(jumlah_paket_deauth) + " buah",
 					auto_size_text = True,)],
 		[sg.Button('Mulai Pencarian ET',key='-tombol_cari-'),
-		 sg.Button('Hentikan Serangan', key='-tombol_serangan')]
+		 sg.Button('Hentikan Serangan', key='-tombol_serangan-'),
+		 sg.Button('Lihat Serangan', key='-tombol_lihat_serangan-')]
 				]
 	return sg.Window('Anet', layout, finalize=True)
 #===========================================================
@@ -116,7 +117,7 @@ def main():
 			stop_pantau = subprocess.call("sudo ./stop_pantau.sh", shell=True)
 			break
 		
-		if window == window1: 					# Semua Event yang ada di layout menu scan AP, masuk sini semua
+		if window == window1: 					
 			if event == '-tombol_layout_2-':
 				window1.hide()
 				window2.un_hide()
@@ -145,7 +146,7 @@ def main():
 				print("nilainya adalah " + str(values['-tabel_AP-']))
 				sg.popup("Akses Poin Terpilih :"+AP_Dilindungi)
 			
-		if window == window2: 					# Semua Event yang ada di layout menu ET Terdeteksi, masuk sini semua
+		if window == window2: 					
 			if event == '-tombol_layout_1-':
 				window1.un_hide()
 				window2.hide()
@@ -170,7 +171,7 @@ def main():
 					
 					if AP_Dilindungi in AP_scan and MAC_ET  :
 						waktu_jam = datetime.now().strftime("%X")
-						index_MAC_ET = MAC_scan.index(MAC_ET[0])																	#[i for i, e in enumerate(MAC_scan) if e == MAC_ET]
+						index_MAC_ET = MAC_scan.index(MAC_ET[0])																	
 						channel_ET = channel_scan[index_MAC_ET]
 						power_ET =  power_scan[index_MAC_ET]
 						window['-tabel_ET-'].update([[AP_Dilindungi,MAC_ET[0],power_ET,channel_ET,waktu_jam]])
@@ -185,6 +186,12 @@ def main():
 
 			if event == '-tombol_serangan-':
 				subprocess.run(["sudo", "tmux", "kill-server"])
+				window['-status_ET-'].update("Berhenti")
+				
+			if event == '-tombol_lihat_serangan-':
+				file_serang= open("serang.txt","r")
+				buka_serang = file_serang.read()
+				sg.popup_scrolled(buka_serang,title = "Status Serangan")
 			
 		if window == window3:
 			if event == '-tombol_layout_1-':
@@ -195,8 +202,6 @@ def main():
 				window1.hide()
 				window2.un_hide()
 				window3.hide()
-			
-			
 			
 			if event == '-eksport-' :
 				try:
